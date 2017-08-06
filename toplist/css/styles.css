@@ -1,28 +1,32 @@
-body{
-	
-	font-family: 'Lato', sans-serif;
+body {
+	font-family: "Lato", sans-serif;
 	color: #2d3c49;
 	font-weight: 300;
-	width: 100%
+	width: 100%;
 }
-.img-responsive{
-	margin: 0 auto
+@media screen and (min-width: 380px) and (max-width: 767px) {
+	#featured-apps {
+		width: 100%
+	}
+	.img-responsive {
+		margin: 0 auto;
+		width: 100%;
+	}
 }
-.text-muted{
+.text-muted {
 	color: #7d97ad;
 }
-.text-thin{
+.text-thin {
 	font-weight: 100;
 }
-.title-logo{
+.title-logo {
 	margin-top: 20px;
 }
-.text-super{
+.text-super {
 	font-size: 45px;
 	max-width: 100%;
 }
-.divider-width{
-	border-style: solid;
-    border-width: 2px;
-    border-color: #7d97ad;
+.hr-rule {
+	border-bottom: 2px solid #7d97ad;
+	margin-bottom: 20px;
 }
